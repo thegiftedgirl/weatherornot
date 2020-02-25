@@ -7,8 +7,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-outer-container">
       <Navbar />
+      <div className="App-inner-container">
+        
+      </div>
     </div>
   );
 }
