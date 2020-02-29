@@ -23,3 +23,8 @@
  .navbar ul li:hover {
      border-bottom:2px solid yellow;
  }
+
+ .navbar h1 {
+    font-family: 'Shrikhand', cursive ;
+    font-size: 3rem;
+ }
