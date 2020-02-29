@@ -6,6 +6,9 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
 import Home from './pages/Home/Home';
+import Profile from './pages/Profile/Profile';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
 
 import './App.css';
 
@@ -21,9 +24,15 @@ function App() {
           <Route exact path="/" render={props =>
            <Home />
           }/>
-          <Route exact path="/" render={props =>
-          <Profile />
-           }/>
+          <Route exact path="/profile" render={props =>
+           <Profile />
+             }/>
+                 <Route exact path="/login" render={props =>
+                <Login />
+               }/>
+            <Route exact path="/signup" render={props =>
+          <Signup />
+          }/>
         </Switch>
       </div>
       <Footer />

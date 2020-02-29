@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     height: 5rem;
-    background-color: blue;
+    background-color: rgb(109, 109, 228);
     justify-content:space-around;
-    color: #ffffff;
-    box-shadow: 2px 2px 7px 2;
+    box-shadow: 2px 2px 7px 2px  lightskyblue;
 
 }
  .navbar ul {
@@ -21,10 +20,16 @@
  }
 
  .navbar ul li:hover {
-     border-bottom:2px solid yellow;
+     border-bottom: 2px solid #0073ff;
  }
 
  .navbar h1 {
     font-family: 'Shrikhand', cursive ;
     font-size: 3rem;
+ }
+
+ .navbar a {
+     text-decoration: none;
+     color:  white;
+
  }
