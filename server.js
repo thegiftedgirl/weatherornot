@@ -5,6 +5,8 @@ const path = require('path');
 
 const app = express();
 
+require('dotenv').config();
+require('./config/database');
 
 app.use(logger('dev'));
 app.use(express.json());
