@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(109, 109, 228);
+    justify-content:space-around;
+    box-shadow: 2px 2px 7px 2px  lightskyblue;
+
+}
+ .navbar ul {
+     display: flex;
+     list-style: none;
+
+ }
+
+ .navbar ul li {
+     font-weight: 900;
+     margin: 1rem;
+
+ }
+
+ .navbar ul li:hover {
+     border-bottom: 2px solid #0073ff;
+ }
+
+ .navbar h1 {
+    font-family: 'Shrikhand', cursive ;
+    font-size: 3rem;
+ }
+
+ .navbar a {
+     text-decoration: none;
+     color:  white;
+
+ }
