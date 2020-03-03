@@ -1,4 +1,4 @@
-const user = require('../models/user');
+const User = require('../models/user');
 
 module.exports = {
     signup
@@ -6,7 +6,7 @@ module.exports = {
 
  async function signup(req, res) {
      try {
-         const user = await user.create(req.body);
+         const user = await User.create(req.body);
          res.json(user);
      } catch (error) {
         res.status(400).json(error);
