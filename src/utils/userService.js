@@ -1,11 +1,11 @@
 import tokenService from './tokenService';
 
 
-const BASE_URL = '/api/users';
+const BASE_URL = '/api/users/';
 
 
 function login(creds) {
-    return fetch(BASE_URL + 'login', {
+    return fetch(BASE_URL + 'login',  {
         method: 'POST',
         headers: new Headers({'Content-type': 'Application/json'}),
         body: JSON.stringify(creds)
