@@ -1,42 +1,29 @@
-import React, { useState } from 'react';
-import getWeatherData from '../../utils/getWeatherData';
+import React from 'react';
+import {Link, NavLink} from 'react-router-dom';
 
 
 
+const Forecast = ({ weatherData }) => {
+       const UI = weatherData.name ?
+        <div> 
+            <h2>Current Weather Conditions</h2>
+            <div>
+            <h3>In {weatherData.name} it's currently {Math.trunc(weatherData.main.temp)} &deg; Degrees</h3>
+            </div>
+<div>
+            <button><Link to="/styles">What to Wear? </Link></button>
+          </div> 
+        </div> 
+        :
+        <h1>Loading...</h1>  
 
-
-
-
-const Forecast = () => {
-let {responseObj, setResponseObj}  = useState({}); {
-return (
-    <div> 
-        <h2>Current Weather Conditions</h2>
+    return (
         <div>
-            { JSON.stringify(responseObj)}
+            {UI}
         </div>
+    );
+};
 
-        <button onClick={getWeatherData}>Get Forecast</button>
-    </div>   
-<body>
-            $("#location").text(result.name)
-        
-            
-            
-            const F = Math.round(result.main.temp * (9/5) - 459.67);
-            const Fahrenheit = F.toString();
-            $("#temperature").text(Fahrenheit);
-    
-            $("#sky").text(result.weather[0].description);
-            
-            const windSpeed = Math.round(result.wind.speed / .44704);
-            const wind = windSpeed.toString();
-            $("#wind").text(windSpeed);
-    
-        }
-    })
-)
-</body>
-}
-}
+
+
 export default Forecast;
