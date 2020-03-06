@@ -42,7 +42,9 @@ handleGetWeatherData = async () => {
 
  async componentDidMount(){
    const { lat, lng } = await getCurrentLatLng();
-  console.log(lat,lng);
+  if(userService.getUser()) {
+    this.handleGetWeatherData();
+  }
 } 
 
  
@@ -61,7 +63,9 @@ handleGetWeatherData = async () => {
               }/>
               <Route exact path="/profile" render={props =>
               userService.getUser()
-              ? <Profile />
+              ? <Profile 
+                  weatherData={this.state.weatherData}
+                />
               : <Redirect to="/login" />
                 }/>
                   <Route exact path="/login" render={props =>
