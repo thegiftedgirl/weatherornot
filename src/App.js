@@ -9,6 +9,7 @@ import Home from './pages/Home/Home';
 import Profile from './pages/Profile/Profile';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
+import Ootd from './pages/Ootd/Ootd';
 
 import './App.css';
 import userService from './utils/userService';
@@ -60,6 +61,9 @@ handleGetWeatherData = async () => {
             <Switch>
               <Route exact path="/" render={props =>
               <Home />
+              }/>
+              <Route exact path="/ootd" render={props =>
+              <Ootd />
               }/>
               <Route exact path="/profile" render={props =>
               userService.getUser()

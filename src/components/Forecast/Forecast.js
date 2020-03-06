@@ -10,9 +10,10 @@ const Forecast = ({ weatherData }) => {
             <div>
             <h3>In {weatherData.name} it's currently {Math.trunc(weatherData.main.temp)} &deg; Degrees</h3>
             </div>
-<div>
-            <button><Link to="/styles">What to Wear? </Link></button>
+            <div>
+            <button><Link to="/ootd">What to Wear? </Link></button>
           </div> 
+
         </div> 
         :
         <h1>Loading...</h1>  
