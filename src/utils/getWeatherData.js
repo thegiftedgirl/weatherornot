@@ -1,5 +1,5 @@
 // TODO place base URL here
-const BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=hyattsville&APPID=";
+const BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=hyattsville&units=imperial&APPID=";
 const APPID = process.env.REACT_APP_APPID;
 console.log(APPID)
 
@@ -9,7 +9,6 @@ console.log(APPID)
 function getWeatherData() {
     return fetch(BASE_URL + APPID).then(res => res.json());
 }
-
 
 
 
