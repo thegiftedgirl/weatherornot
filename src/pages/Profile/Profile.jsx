@@ -7,7 +7,7 @@ import Forecast from "../../components/Forecast/Forecast";
 const Profile= (props) => {
  return(
      <main>
-        <h1>Profile</h1>   
+       
         <Forecast {...props}/>
      </main>
  );

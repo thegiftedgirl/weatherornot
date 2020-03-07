@@ -1,12 +1,12 @@
 import React from 'react';
-
+import styles from './OotdLogic.module.css'
 
 const OotdLogic = (props) => {
     
     const options = {
-        cold: [  "sweater", 'coat', 'boots', 'gloves'],
-        warm: ['t-shirt', 'shorts', 'sunglasses', 'sneakers'],
-        hot: ['tank top', 'shorts', 'sunglasses', 'sandals'],
+        cold: [  "chunky sweater", ' long coat', 'snowboots', ' leather gloves'],
+        warm: ['v- neck tee', 'mid length shorts', 'shades', 'sneakers', 'sweatshirt'],
+        hot: ['sundress', 'shorts', 'shades', 'gellies', 'crop top'],
     }
   
     function chooseOptions(temp) {
@@ -24,8 +24,8 @@ const OotdLogic = (props) => {
 
     return (
         <main1>
-            <h1>Based on the Current Temperature...</h1>
-            <p>you should think about wearing the following items</p>
+            <h2>Based on the Current Temp...</h2>
+            <p>you should consider wearing</p>
                 {/*<img key={idx} src={option}/> */}
             <section>
                 { props.weatherData.main ?
@@ -34,7 +34,7 @@ const OotdLogic = (props) => {
                         <p key={idx}>{option}</p>
                     ))
                         :
-                        <h1>Loading ...</h1>                }
+                        <h1>Brewing Style Recipe ...</h1>                }
             </section>
         </main1>
 
