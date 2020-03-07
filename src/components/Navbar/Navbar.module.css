@@ -26,12 +26,12 @@
  .navbar h1 {
     font-family: 'Rock Salt', cursive;
     font-size: 2rem;
-    text-shadow: 0 0 10px rgb(255, 234, 0), 
-                0 0 20px #FAD88C, 
-                0 0 30px #C949B5,
+    text-shadow: 0 0 10px rgb(255, 240, 78), 
+                0 0 20px rgb(255, 7, 238), 
+                0 0 30px #ffa914,
                 0 0 40px #C949B5,
-                0 0 50px #e60073, 
-                0 0 60px #e60073, 
+                0 0 50px #e62300, 
+                0 0 60px #ff8f39, 
                 0 0 90px #ffd941;
    }
 

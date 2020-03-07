@@ -6,7 +6,12 @@ import styles from './Home.module.css';
 const Home = (props) => {
     return (
         <main>
-            <h1>Homepage</h1>
+            <p >
+Ever wake up in the morning with nothing to do, 
+but the urge to seize the day? Well Weather Or Not 
+is an app that not only tells you the local 
+weather, it also suggests 
+what to wear.</p>
     
         </main>
     );

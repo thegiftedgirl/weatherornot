@@ -1,0 +1,20 @@
+main  {display: flex;
+flex-direction: column;
+width: 30rem;
+margin: 0 auto;
+margin-top: 4rem;
+font-family: 'shrikhand', cursive;
+color: rgb(171, 228, 208);
+font-size: 2rem;
+text-align: center;
+
+}
+
+main {
+        border: 0.5rem outset pink;
+       
+        border-radius: 12px;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+      
+}
