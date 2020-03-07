@@ -30,7 +30,7 @@ Would like to be allow personal style options.
 
 # Tecnologies used:
 
-MongoDB/Mongoose, Express, Node, React
+MongoDB/Mongoose, Express, Node JS, React JS
 
 # Getting Started:
 
