@@ -27,3 +27,11 @@ Would like to implement a weekly live database update for new "looks" that stay 
 Would like to consume Eventbrite api to suggest daily events in the users area.
 
 Would like to be allow personal style options.
+
+Tecnologies used
+
+MongoDB/Mongoose, Express, Node, React
+
+Getting Started
+
+https://weatherornot-app.herokuapp.com/
