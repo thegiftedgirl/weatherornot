@@ -32,7 +32,7 @@ function getUser() {
 
 
 function signup(user) {
-    return fetch(BASE_URL + '/signup', {
+    return fetch(BASE_URL + 'signup', {
         method: 'POST',
         headers: new Headers({'Content-type': 'Application/json'}),
         body: JSON.stringify(user)

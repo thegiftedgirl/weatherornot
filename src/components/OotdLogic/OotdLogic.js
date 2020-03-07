@@ -23,7 +23,7 @@ const OotdLogic = (props) => {
     }
 
     return (
-        <main>
+        <main1>
             <h1>Based on the Current Temperature...</h1>
             <p>you should think about wearing the following items</p>
                 {/*<img key={idx} src={option}/> */}
@@ -36,7 +36,7 @@ const OotdLogic = (props) => {
                         :
                         <h1>Loading ...</h1>                }
             </section>
-        </main>
+        </main1>
 
     );
 };
