@@ -4,11 +4,11 @@ import React from 'react';
 const OotdLogic = (props) => {
     
     const options = {
-        cold: ['sweater', 'coat', 'boots', 'gloves'],
-        warm: ['t-shirt', 'shorts', 'sunglasses', 'sandals'],
-        hot: ['tank top', 'shorts', 'sunglasses', 'sunscreen'],
+        cold: [  "sweater", 'coat', 'boots', 'gloves'],
+        warm: ['t-shirt', 'shorts', 'sunglasses', 'sneakers'],
+        hot: ['tank top', 'shorts', 'sunglasses', 'sandals'],
     }
-
+  
     function chooseOptions(temp) {
         let choices;
 
@@ -32,7 +32,7 @@ const OotdLogic = (props) => {
 
                     chooseOptions(Math.trunc(props.weatherData.main.temp)).map((option, idx) => (
                         <p key={idx}>{option}</p>
-                        ))
+                    ))
                         :
                         <h1>Loading ...</h1>                }
             </section>

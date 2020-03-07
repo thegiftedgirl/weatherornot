@@ -1,11 +1,10 @@
 .navbar {
     display: flex;
     align-items: center;
-    height: 4rem;
-  
+    height: 6rem;
     justify-content:space-around;
-    background-image: none;
-    
+    box-shadow: 7px 9px 7px 29px  lightskyblue;
+   
 
 }
  .navbar ul {
@@ -18,7 +17,7 @@
      font-weight: 500;
      margin: 3rem;
 
- }ßß
+ }
 
  .navbar ul li:hover {
      border-bottom: 2px solid #0073ff;
@@ -27,17 +26,17 @@
  .navbar h1 {
     font-family: 'Rock Salt', cursive;
     font-size: 2rem;
-    text-shadow: 0 0 10px #ED8B93, 
+    text-shadow: 0 0 10px rgb(255, 234, 0), 
                 0 0 20px #FAD88C, 
-                0 0 30px #f973b6, 
-                0 0 40px #008ee6, 
-                0 0 50px #f45ea9, 
+                0 0 30px #C949B5,
+                0 0 40px #C949B5,
+                0 0 50px #e60073, 
                 0 0 60px #e60073, 
-                0 0 70px #00e2e69c;
+                0 0 90px #ffd941;
    }
 
  .navbar a {
      text-decoration: none;
-     color: rgb(255, 234, 0);
+     color:  rgb(235, 235, 227);
 
  }
