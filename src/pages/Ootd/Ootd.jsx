@@ -8,7 +8,7 @@ const Ootd = (props) => {
     return (
         <main>
             <h1>Ootd</h1>
-            <p>Here are some suggestions</p>
+            <p1>Here are some suggestions</p1>
             <OotdLogic {...props} />
         </main>
     );
