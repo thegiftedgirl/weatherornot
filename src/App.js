@@ -11,9 +11,11 @@ import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import Ootd from './pages/Ootd/Ootd';
 
+
 import './App.css';
 import userService from './utils/userService';
 import weatherApiService from './utils/getWeatherData';
+
 
 
 
@@ -25,6 +27,8 @@ class App extends Component {
     weatherData: {},
     getCurrentLatLng
   }
+
+
 
 handleSignupOrLogin = () => {
   this.setState({ user: userService.getUser()})
