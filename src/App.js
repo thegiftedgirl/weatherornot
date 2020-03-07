@@ -67,7 +67,7 @@ handleGetWeatherData = async () => {
               <Home />
               }/>
               <Route exact path="/ootd" render={props =>
-              <Ootd />
+              <Ootd weatherData={this.state.weatherData}/>
               }/>
               <Route exact path="/profile" render={props =>
               userService.getUser()

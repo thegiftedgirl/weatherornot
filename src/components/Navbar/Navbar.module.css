@@ -1,10 +1,11 @@
 .navbar {
     display: flex;
     align-items: center;
-    height: 5rem;
- 
+    height: 4rem;
+  
     justify-content:space-around;
-    box-shadow: 2px 2px 7px 2px  lightskyblue;
+    background-image: none;
+    
 
 }
  .navbar ul {
@@ -14,22 +15,29 @@
  }
 
  .navbar ul li {
-     font-weight: 900;
-     margin: 1rem;
+     font-weight: 500;
+     margin: 3rem;
 
- }
+ }ßß
 
  .navbar ul li:hover {
      border-bottom: 2px solid #0073ff;
  }
 
  .navbar h1 {
-    font-family: 'Shrikhand', cursive ;
-    font-size: 3rem;
- }
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #ED8B93, 
+                0 0 20px #FAD88C, 
+                0 0 30px #f973b6, 
+                0 0 40px #008ee6, 
+                0 0 50px #f45ea9, 
+                0 0 60px #e60073, 
+                0 0 70px #00e2e69c;
+   }
 
  .navbar a {
      text-decoration: none;
-     color:  white;
+     color: rgb(255, 234, 0);
 
  }

@@ -9,7 +9,7 @@ const Ootd = (props) => {
         <main>
             <h1>Ootd</h1>
             <p>Here are some suggestions</p>
-            <OotdLogic />
+            <OotdLogic {...props} />
         </main>
     );
 };

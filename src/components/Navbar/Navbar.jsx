@@ -29,7 +29,7 @@ const Navbar = (props) => {
      return (
         <nav className={styles.navbar}>
             <Link to="/">
-                <h1>Weather Or Not</h1>
+                <h1>Weather Or Not?</h1>
             </Link>
             <ul>
                 { conditionalUI }

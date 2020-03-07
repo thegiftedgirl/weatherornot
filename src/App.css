@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("/img/weatherornotbackground2.png");
+  background-color: #00d5c7;
+  
   
 }
 
@@ -13,5 +14,7 @@
 
 }
 .App-inner-container {
-  background-image: url("/img/weatherornotbackground2.png");
+  background-image: url("/img/weatherornotbackground4.jpg");
+  background-size: cover;
+ background-position: top center;
 }
